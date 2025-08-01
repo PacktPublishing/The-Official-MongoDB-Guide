@@ -52,10 +52,6 @@ Below is a sorted, linked list of code and configuration snippet files reference
 - [`vector_search_results_example.txt`](./vector_search_results_example.txt)
 - [`compound_operator_query_example.json`](./compound_operator_query_example.json)
 
-<!-- Additional files in this folder -->
-- [`Chapter description.txt`](./Chapter%20description.txt)
-
-Other illustrative code blocks and configuration examples are included in the chapter text.
 Other illustrative code blocks and configuration examples are included in the chapter text.
 
 Refer to each file for the corresponding code or configuration snippet as described in the chapter. For further details, consult the official MongoDB documentation linked below.
