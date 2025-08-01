@@ -1,0 +1,24 @@
+{
+  _id: ObjectId("573a1398f29313caabcea2cc"),
+  plot: 'The young attendees of a space camp find themselves in space for real when their shuttle is accidentally launched into orbit.',
+  genres: [
+    'Adventure',
+    'Family',
+    'Sci-Fi'
+  ],
+  runtime: 107,
+  rated: 'PG',
+  cast: [
+    'Kate Capshaw',
+    'Lea Thompson',
+    'Kelly Preston',
+    'Larry B. Scott'
+  ],
+  title: 'SpaceCamp',
+  released: 1986-06-06T00:00:00.000Z,
+  directors: [
+    'Harry Winer'
+  ]
+  //...
+}
+//...

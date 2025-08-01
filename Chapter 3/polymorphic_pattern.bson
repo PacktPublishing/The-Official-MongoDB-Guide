@@ -1,0 +1,30 @@
+// Customer document
+{
+     "customerId": "CUST-123456789",
+     "docType": "customer",
+     "name": {
+        "title": "Mr",
+        "first": "Andrew",
+        "middle": "James",
+        "last": "Morgan"
+     },
+     "address": {
+        "street1": "240 Blackfriars Rd",
+        "city": "London",
+        "postCode": "SE1 8NW",
+        "country": "UK"
+     },
+     "customerSince": ISODate("2005-05-20")
+  }
+
+// Account document
+{
+     "accountNumber": "ACC1000000890",
+     "docType": "account",
+     "accountType": "savings",
+     "customerId": [
+        "CUST-123456789"
+     ],
+     "dateOpened": ISODate("2003-12-15"),
+     "balance": NumberDecimal("10341.89")
+  }

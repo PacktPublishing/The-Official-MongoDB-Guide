@@ -1,0 +1,20 @@
+{
+  "_id": ObjectId("549f1faabcf88cd799433037"),
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "subset_reviews": [
+    {
+      "user": "coolreader123",
+      "rating": 5,
+      "comment": "Great!",
+      "date": ISODate("2023-10-01T10:00:00Z")
+    },
+    {
+      "user": "cozyreading",
+      "rating": 4,
+      "comment": "Good read.",
+      "date": ISODate("2023-09-29T08:30:00Z")
+    }
+    // ... 3 more recent reviews
+  ]
+}

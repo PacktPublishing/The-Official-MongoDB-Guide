@@ -1,0 +1,6 @@
+{
+  '_id': ObjectId('60f5c4c4543b5a2c7c4c73a2'),
+  'name': 'Chinazom',
+  'age': 24,
+  'email': 'chinazom@example.com'
+}

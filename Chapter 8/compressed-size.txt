@@ -1,0 +1,2 @@
+Compressed Data Size = Raw Data Size ÷ Compression Ratio
+Compressed Index Size = Index Size ÷ Index Compression Ratio

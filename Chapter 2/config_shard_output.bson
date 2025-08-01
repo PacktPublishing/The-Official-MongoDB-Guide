@@ -1,0 +1,7 @@
+{
+   _id: "config",
+   host: "configRepl/localhost:27018",
+   state: 1,
+   topologyTime: Timestamp({ t: 1732218671, i: 13 }),
+   replSetConfigVersion: Long('-1')
+}

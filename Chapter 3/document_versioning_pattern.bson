@@ -1,0 +1,37 @@
+// currentPolicies collection
+
+{
+      _id: ObjectId("6626c9832a98aba8ddec31d3"),
+      customerName: 'Michelle',
+      dateSet: ISODate("2024-04-22T20:32:43.232Z"),
+      itemsInsured: [ 'car', 'watch' ],
+      policyId: 1,
+      revision: 3
+ }
+
+// policyRevisions collection
+
+{
+  _id: ObjectId("6626c8f02a98aba8ddec31d1"),
+  policyId: 1,
+  customerName: 'Michelle',
+  revision: 1,
+  itemsInsured: [ 'golf clubs', 'car' ],
+  dateSet: ISODate("2024-04-22T20:30:40.809Z")
+},
+{
+  _id: ObjectId("6626c92b2a98aba8ddec31d2"),
+  customerName: 'Michelle',
+  dateSet: ISODate("2024-04-22T20:31:03.000Z"),
+  itemsInsured: [ 'golf clubs', 'car', 'watch' ],
+  policyId: 1,
+  revision: 2
+},
+{
+  _id: ObjectId("6626c9832a98aba8ddec31d3"),
+  customerName: 'Michelle',
+  dateSet: ISODate("2024-04-22T20:32:43.232Z"),
+  itemsInsured: [ 'car', 'watch' ],
+  policyId: 1,
+  revision: 3
+}

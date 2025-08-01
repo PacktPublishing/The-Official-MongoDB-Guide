@@ -1,0 +1,1 @@
+brew install mongodb-atlas

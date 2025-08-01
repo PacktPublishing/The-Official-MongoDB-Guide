@@ -1,0 +1,1 @@
+atlas users invite --email user@example.com --username user@example.com --orgRole <orgId>:ORG_MEMBER --projectRole <projectId>:GROUP_READ_ONLY --firstName Example --lastName User --country US --output json

@@ -1,0 +1,24 @@
+{
+    "_id": ObjectId("652f89b8ac11b816a4cd1234"),
+    "name": "Wireless Headphones",
+    "type": "Electronics",
+    "price": 99.99,
+    "attributes": [
+        {
+            "key": "battery_life",
+            "value": "30 hours"
+        },
+        {
+            "key": "connectivity",
+            "value": "Bluetooth 5.0"
+        },
+        {
+            "key": "warranty",
+            "value": "1 year"
+        },
+        {
+            "key": "noise_cancellation",
+            "value": true
+        }
+    ]
+}

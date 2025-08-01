@@ -1,0 +1,24 @@
+{
+  "activity_id" : 1,
+  "category_uid" : 3,
+  "class_uid" : 3002,
+  "time" : 1710715316123,
+  "severity_id" : 1,
+  "type_uid" : 300201,
+  "metadata" : {
+     "correlation_uid" : "20ec4769-984d-445c-aea7-da0429da9122",
+     "product" : "MongoDB Server",
+     "version" : "1.0.0"
+  },
+  "actor" : {
+     "user" : {
+        "type_id" : 1,
+        "groups" : [ { "name" : "admin.root" } ]
+     }
+  },
+  "src_endpoint" : { "ip" : "127.0.0.1", "port" : 56692 },
+  "dst_endpoint" : { "ip" : "127.0.0.1", "port" : 20040 },
+  "user" : { "type_id" : 1, "name" : "admin.admin" },
+  "auth_protocol" : "SCRAM-SHA-256",
+  "unmapped" : { "atype" : "authenticate" }
+}

@@ -1,0 +1,22 @@
+apiVersion: atlas.mongodb.com/v1  
+kind: AtlasProject  
+metadata:  
+  name: my-project  
+spec:  
+  name: "Production Application"  
+  projectIpAccessList:  
+    - ipAddress: "192.0.2.0/24"  
+      comment: "Production network"  
+---  
+apiVersion: atlas.mongodb.com/v1  
+kind: AtlasDeployment  
+metadata:  
+  name: my-cluster  
+spec:  
+  projectRef:  
+    name: my-project  
+  deploymentSpec:  
+    name: "Production Cluster"  
+    providerSettings:  
+      instanceSizeName: M10  
+      providerName: AWS

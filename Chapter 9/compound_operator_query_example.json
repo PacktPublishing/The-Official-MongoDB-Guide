@@ -1,0 +1,9 @@
+{
+  "$search": {
+    "index": "<index name>", // "default" when omitted
+    "compound": {
+      "<must|mustNot|should|filter>": [ {<operator>} ],
+      "score": <options>
+    }
+  }
+}

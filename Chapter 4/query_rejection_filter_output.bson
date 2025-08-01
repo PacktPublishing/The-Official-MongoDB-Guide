@@ -1,0 +1,18 @@
+[
+  {
+    queryShapeHash: 'AB8ECADEE8F0EB0F447A30744EB4813AE7E0BFEF523',
+    settings: { reject: true },
+    representativeQuery: {
+      find: 'users',
+      filter: { age: { '$gt': 24 } },
+      sort: { age: 1 },
+      '$db': 'test'
+    },
+    debugQueryShape: {
+      cmdNs: { db: 'test', coll: 'users' },
+      command: 'find',
+      filter: { age: { '$gt': 24 } },
+      sort: { totalNumber: 1 }
+    }
+  }
+]

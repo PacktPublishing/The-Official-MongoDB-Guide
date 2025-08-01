@@ -1,0 +1,16 @@
+{
+  _id: <ObjectId>,
+  name: "Samsung EVO",
+  price: {
+    value: NumberDecimal("169.99"),
+    currency: "USD"
+  },
+  parent_category: "Solid state drives",
+  ancestor_categories: [
+    "Solid state drives",
+    "Hard drives",
+    "Storage",
+    "Computers",
+    "Electronics"
+  ]
+}

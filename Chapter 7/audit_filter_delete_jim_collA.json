@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "user": "jim",
+      "db": "admin"
+    }
+  ],
+  "atype": "delete",
+  "param.ns": "db1.collA"
+}

@@ -1,0 +1,7 @@
+{
+  "_id": ObjectId("5f4b7de8e8189a46aaf6e3ad"),
+  "student_id": ObjectId("5f4b7de8e7139a46aaf5e4a5"),
+  "course_id": ObjectId("5f4b7de8e7179a56aaf6e1b2"),
+  "grade": 76,
+  "semester": "Fall 2025"
+}

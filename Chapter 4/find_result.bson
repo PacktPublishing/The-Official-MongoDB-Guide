@@ -1,0 +1,5 @@
+[ {  
+  _id: ObjectId("652024e7ab44f3bf77788a3d"),
+  title: 'Mastering MongoDB 8.0',
+  isbn: '101'
+} ]

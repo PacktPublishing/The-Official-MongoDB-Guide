@@ -1,0 +1,22 @@
+{  
+  "_id": ObjectId("507f1f77bcf86cd799439013"),
+  "doubleField": 87.9,
+  "stringField": "Greetings!",
+  "objectField": {
+    "name": "Sarah",
+    "age": 28
+  },
+  "arrayField": [10, 20, 30, 40, 50],
+  "binaryField": BinData(0, "different-binary-data"),
+  "booleanField": false,
+  "dateField": ISODate("2024-12-15T14:30:00Z"),
+  "nullField": null,
+  "regexField": /^xyz/,
+  "javascriptField": Code("function () { print('hello world!'); }"),
+  "int32Field": 128,
+  "timestampField": Timestamp(1701410400, 2),
+  "int64Field": NumberLong("1234567890"),
+  "decimal128Field": NumberDecimal("9.876543210987654321"),
+  "minKeyField": MinKey(),
+  "maxKeyField": MaxKey()
+}

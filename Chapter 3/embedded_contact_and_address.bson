@@ -1,0 +1,13 @@
+// users collection
+{
+  _id: <ObjectId1>,
+  username: "user1",
+  contact: {
+    phone: "123-456-7890",
+    email: "abc@example.com",
+  },
+  access: {
+    level: 5,
+    group: "dev"
+  }
+}

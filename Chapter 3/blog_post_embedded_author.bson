@@ -1,0 +1,26 @@
+{  
+  title: "My Favorite Vacation",
+  date: ISODate("2023-06-02"),
+  text: "We spent seven days in Italy...",
+  tags: [
+    {
+      name: "travel",
+      url: "<blog-site>/tags/travel"
+    },
+    {
+      name: "adventure",
+      url: "<blog-site>/tags/adventure"
+    }
+  ],
+  comments: [
+    {
+        name: "pedro345",
+        text: "Great article!"
+    }  
+  ],
+  author: {
+    name: "alice123",
+    email: "alice@mycompany.com",
+    avatar: "photo1.jpg"
+  }
+}

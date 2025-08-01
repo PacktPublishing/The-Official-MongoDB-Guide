@@ -1,0 +1,25 @@
+{    
+  "_id": "sensor_001_2023_10",         // Unique ID (sensor_id + month year bucket)
+  "sensor_id": "sensor_001",           // Sensor identifier
+  "location": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  "month": "October",
+  "year": 2023,
+  "readings": [
+    {
+      "timestamp": ISODate("2023-10-01T10:15:00Z"),
+      "temperature": 72.5
+    },
+    {
+      "timestamp": ISODate("2023-10-01T12:30:00Z"),
+      "temperature": 74.1
+    },
+    {
+      "timestamp": ISODate("2023-10-02T08:45:00Z"),
+      "temperature": 68.9
+    }
+    // Additional readings for the bucket go here...
+  ]
+}

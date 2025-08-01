@@ -1,0 +1,18 @@
+{
+   _id: 1,
+   title: "123 Department Report",
+   tags: [ [ "bar" ], [ "foo" ] ],
+   year: 2014,
+   subsections: [
+       {
+           subtitle: "Section 1: Overview",
+           tags: [ [ "bar", "baz" ], [ "foo" ] ],
+           content:  "Section 1: This is the content of section 1."
+       },
+       {
+           subtitle: "Section 2: Analysis",
+           tags: [ [ "bar" ] ],
+           content: "Section 2: This is the content of section 2."
+       },
+   ]
+}

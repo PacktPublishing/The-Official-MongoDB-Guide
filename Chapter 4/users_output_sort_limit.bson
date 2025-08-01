@@ -1,0 +1,5 @@
+[
+  { _id: 1, name: 'Justin', age: 28 },
+  { _id: 3, name: 'Lauren', age: 26 },
+  { _id: 2, name: 'Sydney', age: 23 }
+]
