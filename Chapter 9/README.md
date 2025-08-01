@@ -88,4 +88,4 @@ This folder contains a collection of MongoDB Atlas Search and Vector Search code
 - [MongoDB Atlas Documentation](https://www.mongodb.com/docs/atlas/)
 - [Atlas Search Documentation](https://www.mongodb.com/docs/atlas/atlas-search/)
 - [Atlas Vector Search Documentation](https://www.mongodb.com/docs/atlas/atlas-vector-search/)
-- [Voyage AI Documentation](https://www.voyageai.com/docs)
+- [Voyage AI Documentation](https://docs.voyageai.com/docs/introduction)
