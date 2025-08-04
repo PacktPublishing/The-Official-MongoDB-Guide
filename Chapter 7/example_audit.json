@@ -1,0 +1,34 @@
+{
+  "atype": "createCollection",
+    "ts": {
+      "$date": "2025-04-21T16:09:33.810-04:00"
+    },
+    "uuid": {
+      "$binary": "ZF9aa2odPqSg74C/Lf1yJk==",
+      "$type": "04"
+    },
+    "local": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "remote": {
+      "ip": "127.0.0.1",
+      "port": 56292
+    },
+    "users": [
+      {
+        "user": "admin",
+        "db": "admin"
+      }
+    ],
+    "roles": [
+      {
+        "role": "root",
+        "db": "admin"
+      }
+    ],
+    "param": {
+        "ns": "audit.coll1"
+    },
+    "result": 0
+}

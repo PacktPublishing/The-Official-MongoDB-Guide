@@ -1,0 +1,1 @@
+Bandwidth = Average Document Size × Peak Documents Per Second

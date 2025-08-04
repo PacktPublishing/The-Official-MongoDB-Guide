@@ -1,0 +1,18 @@
+{
+   name: "Jon Doe",
+   bill: 1500,
+   procedure: {
+     code: 174839,
+     recoveryTime: 30,
+     name: "appendectomy"
+   },  
+},
+{
+   name: "Jane Doe",
+   bill: 1800,
+   procedure: {
+     code: 149174,
+     recoveryTime: 60,
+     name: "ankle surgery"
+   },
+}

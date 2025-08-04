@@ -1,0 +1,1 @@
+Total Storage Needed = (500MB + 300MB) × 1.5 = 1.2GB

@@ -1,0 +1,18 @@
+{
+   _id: 1,
+   schemaVersion: 1,
+   name: 'Taylor',
+   home: '209-555-7788',
+   work: '503-555-0110'
+},
+{
+   _id: 2,
+   schemaVersion: 2,
+   name: "Cameron",
+   contactInfo: {
+      cell: "903-555-1122",
+      work: "670-555-7878",
+      instagram: "@camcam9090",
+      linkedIn: "CameronSmith123"
+   }
+}

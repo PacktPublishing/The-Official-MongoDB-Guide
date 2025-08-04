@@ -1,0 +1,33 @@
+// articles collection
+
+{
+     title: "My Favorite Vacation",
+     date: ISODate("2023-06-02"),
+     text: "We spent seven days in Italy...",
+     authorId: 987,
+     tags: [
+        {
+            name: "travel,
+            url: "<blog-site>/tags/travel"
+        },
+        {
+            name: "adventure",
+            url: "<blog-site>/tags/adventure"
+        }
+     ],
+     comments: [
+        {
+            name: "pedro345",
+            url: "Great article!"
+        }
+     ]
+}
+
+// authors collection
+
+{
+     _id: 987,
+     name: "alice123",
+     email: "alice@mycompany.com",
+     avatar: "photo1.jpg"
+}

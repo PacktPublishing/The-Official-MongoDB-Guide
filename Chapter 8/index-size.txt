@@ -1,0 +1,1 @@
+Index Size = Raw Data Size × (0.2 to 0.5)

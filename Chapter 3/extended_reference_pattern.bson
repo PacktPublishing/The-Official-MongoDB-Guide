@@ -1,0 +1,37 @@
+// products collection
+{
+  "_id": ObjectId("652f89b8ac22b816a4cd0011"),
+  "name": "Wireless Headphones",
+  "price": 99.99,
+  "category": "Electronics",
+  "in_stock": 250
+},
+{
+  "_id": ObjectId("652f89b8ac22b816a4cd0022"),
+  "name": "Gaming Mouse",
+  "price": 49.99,
+  "category": "Accessories",
+  "in_stock": 500
+}
+
+// orders collection:
+{
+  "_id": ObjectId("652f89d9ac33b816a4cd1234"),
+  "order_date": ISODate("2023-10-01T14:32:00Z"),
+  "customer_id": ObjectId("652f89b8ac22b816a4cd5678"),
+  "products": [
+    {
+      "product_id": ObjectId("652f89b8ac22b816a4cd0011"),
+      "name": "Wireless Headphones",  // Extended reference field
+      "price": 99.99,                 // Extended reference field
+      "quantity": 2
+    },
+    {
+      "product_id": ObjectId("652f89b8ac22b816a4cd0022"),
+      "name": "Gaming Mouse",  // Extended reference field
+      "price": 49.99,         // Extended reference field
+      "quantity": 1
+    }
+  ],
+  "total": 249.97
+}

@@ -1,0 +1,1 @@
+Total Storage Needed = (Compressed Data Size + Compressed Index Size) × 1.5

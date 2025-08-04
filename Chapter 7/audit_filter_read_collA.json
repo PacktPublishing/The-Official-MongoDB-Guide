@@ -1,0 +1,9 @@
+{
+  "atype": "authCheck",
+  "param.ns": "db1.collA",
+  "param.command": {
+    "$in": [
+      "find"
+    ]
+  }
+}

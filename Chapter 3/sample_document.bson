@@ -1,0 +1,19 @@
+{
+  "_id": ObjectId("650d9b7fb6a6f4f8d45ce0b8"),
+  "username": "johndoe",
+  "email": "johndoe@example.com",
+  "profile": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthdate": ISODate("1994-04-17T00:00:00Z")
+  },
+  "skills": ["JavaScript", "MongoDB"],
+  "experience": [
+    {
+      "company": "Tech Corp",
+      "role": "Software Engineer",
+      "startDate": ISODate("2018-06-01T00:00:00Z"),
+      "endDate": ISODate("2021-08-30T00:00:00Z")
+    }
+  ]
+}

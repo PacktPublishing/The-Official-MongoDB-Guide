@@ -1,0 +1,14 @@
+{  
+ "t": {  
+   "$date": "2020-05-01T15:16:17.180+00:00"  
+ },  
+ "s": "I",  
+ "c": "NETWORK",  
+ "id": 12345,  
+ "ctx": "listener",  
+ "svc": "R",  
+ "msg": "Listening on",  
+ "attr": {  
+   "address": "127.0.0.1"  
+ }  
+}

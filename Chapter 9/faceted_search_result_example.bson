@@ -1,0 +1,27 @@
+{
+  count: {
+    lowerBound: 57
+  },
+  facet: {  
+    genresFacet: {
+      buckets: [
+        {
+          _id: 'Drama',
+          count: 39
+        },
+        {
+          _id: 'Comedy',
+          count: 13
+        },
+        {
+          _id: 'Romance',
+          count: 13
+        },
+        {
+          _id: 'Biography',
+          count: 11
+        }
+      ]
+    }
+  }
+}

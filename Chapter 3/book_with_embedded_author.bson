@@ -1,0 +1,21 @@
+{
+  "_id": ObjectId("65a1b2c3d4e5f6789abcdef0"),
+  "title": "The Digital Revolution",
+  "isbn": "978-0-123456-78-9",
+  "publication_date": ISODate("2024-03-15T00:00:00Z"),
+  "pages": 342,
+  "genres": ["Technology", "History"],
+  "price": NumberDecimal("29.99"),
+  "author": {
+    "name": "Sarah Johnson",
+    "bio": "Dr. Sarah Johnson is a professor of Computer Science at Stanford University and expert in digital transformation.",
+    "nationality": "American",
+    "previous_works": [
+      "AI and Society",
+      "The Future of Computing"
+    ]
+  },
+  "description": "An exploration of how digital technology has changed society over the past three decades.",
+  "average_rating": 4.7,
+  "in_stock": true
+}

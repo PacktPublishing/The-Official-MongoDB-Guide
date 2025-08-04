@@ -1,0 +1,7 @@
+{    
+    "_id": ObjectId("652f89b8ac11b816a4cd1234"),
+    "name": "Wireless Headphones",
+    "price": 99.99,
+    "in_stock": 250,
+    "stock_value": 24997.5  // Computed field
+}

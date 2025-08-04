@@ -1,0 +1,1 @@
+Total Raw Data Size = Sum of All Collection Sizes

@@ -1,0 +1,2 @@
+Compressed Data Size = 2GB ÷ 4 = 500MB
+Compressed Index Size = 600MB ÷ 2 = 300MB

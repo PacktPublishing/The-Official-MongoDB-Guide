@@ -1,0 +1,1 @@
+Collection Size = Average Document Size × Number of Documents

@@ -1,0 +1,18 @@
+{
+  "_id": ObjectId('573a13b2f29313caabd3a6e5'),
+  "title": "V for Vendetta",
+  "plot": "In a future British tyranny ...",
+  "directors": ["James McTeigue"],
+  "cast": ["Natalie Portman", "Hugo Weaving"],
+  "genres": ["Action", "Drama", "Thriller"],
+  "imdb": { rating: 8.2, votes: 709179, id: 434409 },
+  "rated": "R",
+  "metacritic": 62,
+  "released": ISODate("2006-03-17T00:00:00.000Z"),  
+  "languages": ["English"],  
+  "fullplot": "Tells the story of Evey Hammond and her ...",
+  "year": 2005,
+  "writers": [],
+  "type": "movie",
+  // ...  
+}

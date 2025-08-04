@@ -1,0 +1,12 @@
+'$vectorSearch': {
+    'index': 'vector_plot_index',
+    'path': 'plot_embedding',
+    'queryVector': query_embedding,
+    'exact': true,  # Enable Exact Nearest Neighbor search
+    'limit': 10,
+    'filter': {  
+        'year': {  
+            '$lt': 1960  
+        }  
+    }  
+}

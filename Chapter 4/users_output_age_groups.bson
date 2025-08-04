@@ -1,0 +1,4 @@
+[
+  { count: 2, names: [ 'Lauren', 'Justin' ], ageGroup: '26 and Older' },
+  { count: 2, names: [ 'Sophie', 'Sydney' ], ageGroup: '19 to 25' }
+]

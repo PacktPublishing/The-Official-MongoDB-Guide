@@ -1,0 +1,10 @@
+{
+    "_id": ObjectId("652f89d9ac33b816a4cd1234"),
+    "date": ISODate("2023-10-01"),
+    "page": "/home",
+    "aggregates": {
+        "page_views": 15432,
+        "unique_visitors": 5432,
+        "avg_time_spent": 215
+    }
+}
