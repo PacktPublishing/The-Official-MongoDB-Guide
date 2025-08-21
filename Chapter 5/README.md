@@ -1,30 +1,85 @@
-# Chapter 5: Security
+# Notes on Code Snippets in Chapter 5
 
-This chapter covers essential MongoDB security concepts, including authentication, authorization, encryption, and deployment hardening. The code and configuration snippets provided here illustrate practical implementations and best practices for securing your MongoDB environment.
+This folder contains a collection of MongoDB code snippets and schema examples for Chapter 5. These files are intended to support learning and reference for MongoDB query operations, aggregation pipelines, query shapes, and new features introduced in MongoDB 8.0.
 
-## Key Considerations
+## How to Read These Files
 
-- **Authentication**: Use robust mechanisms such as SCRAM, X.509, and OIDC for verifying user and application identities. Avoid storing credentials in MongoDB when possible.
-- **Authorization**: Apply role-based access control (RBAC) to manage user permissions efficiently. Prefer custom roles for granular access and always follow the principle of least privilege.
-- **Encryption**: Protect data at rest, in transit, and in use. Use AES-256 for disk encryption, TLS for network encryption, and field-level or queryable encryption for sensitive data.
-- **External Identity Providers**: Integrate with OIDC for modern, token-based authentication and single sign-on. Configure your MongoDB deployment to use trusted identity providers.
-- **Network Hardening**: Use firewalls, VPNs, and disable IP forwarding to minimize attack surfaces. Regularly audit and update your security configurations.
-- **Key Management**: Store master and data keys securely, preferably using an external key management service. Always have a recovery plan for lost keys.
-- **Performance**: Be aware that encryption and security mechanisms may impact performance. Test and monitor your deployment to balance security and efficiency.
+- **File Types:**
+  - `.js` files: Contain MongoDB Shell commands or JavaScript code. Most are runnable directly in the MongoDB Shell or a compatible environment.
+  - `.py` files: Python scripts using PyMongo or Motor for MongoDB operations.
+  - `.bson` files: Example BSON documents or output illustrating document structure, query results, or aggregation output.
+  - `.sh` files: Shell scripts for setup or connection steps.
 
-## Snippet Files (in order of appearance)
+- **Non-Runnable Snippets:**
+  - Some files (especially `.bson` or those with partial documents) are for illustration only. They show document structure, query results, or output from MongoDB commands. These may include placeholder values, ellipses (`...`), or comments to indicate omitted or example data.
+  - Use these as templates or references when designing your own queries or understanding MongoDB output.
 
-1. [`create_custom_role.js`](./create_custom_role.js)
-2. [`generate_master_key.js`](./generate_master_key.js)
-3. [`encryption_schema.js`](./encryption_schema.js)
-4. [`create_encrypted_collection.js`](./create_encrypted_collection.js)
-5. [`insert_encrypted_documents.js`](./insert_encrypted_documents.js)
-6. [`range_query_encrypted_data.js`](./range_query_encrypted_data.js)
-7. [`range_query_results_example.bson`](./range_query_results_example.bson)
-8. [`redact_tags_document_example.bson`](./redact_tags_document_example.bson)
-9. [`redact_pipeline_example.js`](./redact_pipeline_example.js)
-10. [`redacted_document_example.bson`](./redacted_document_example.bson)
-11. [`oidc_setParameter_example.conf`](./oidc_setParameter_example.conf)
-12. [`oidc_create_role_example.js`](./oidc_create_role_example.js)
+- **Runnable Code:**
+  - Most `.js` and `.py` files are complete examples and can be run as-is, provided you have a suitable test database and collection. Some scripts assume the existence of certain collections or data—review and adapt as needed for your environment.
 
-Refer to each file for the corresponding code or configuration snippet as described in the chapter. For further details, consult the official MongoDB documentation linked throughout the chapter.
+## Topics Covered
+
+- Basic CRUD operations with mongosh and PyMongo
+- Aggregation pipelines and advanced queries
+- Query shapes and query settings
+- Operation rejection filters and query rejection examples
+- New MongoDB 8.0 features (e.g., $convert, $rank, $queryStats)
+
+## Best Practices
+
+- Review code before running in a production environment.
+- Use these examples as learning aids or starting points for your own MongoDB projects.
+- Refer to the chapter or documentation for context on each snippet.
+
+## Snippet Files Index
+
+Below is a sorted list of all code and schema snippet files in this chapter:
+
+### BSON Files
+
+- [delete_confirmation.bson](./delete_confirmation.bson)
+- [delete_confirmation_pymongo.bson](./delete_confirmation_pymongo.bson)
+- [find_result.bson](./find_result.bson)
+- [insert_confirmation.bson](./insert_confirmation.bson)
+- [operation_rejection_users_example.bson](./operation_rejection_users_example.bson)
+- [query_rejection_filter_output.bson](./query_rejection_filter_output.bson)
+- [student_grades_document.bson](./student_grades_document.bson)
+- [update_confirmation.bson](./update_confirmation.bson)
+- [users_collection_example.bson](./users_collection_example.bson)
+- [users_input.bson](./users_input.bson)
+- [users_output_age_groups.bson](./users_output_age_groups.bson)
+- [users_output_sort_limit.bson](./users_output_sort_limit.bson)
+
+### JavaScript Files
+
+- [aggregation_addFields_group_sort_project.js](./aggregation_addFields_group_sort_project.js)
+- [aggregation_convert.js](./aggregation_convert.js)
+- [aggregation_queryStats.js](./aggregation_queryStats.js)
+- [aggregation_setWindowFields_rank.js](./aggregation_setWindowFields_rank.js)
+- [aggregation_sort_limit.js](./aggregation_sort_limit.js)
+- [aggregation_student_grades.js](./aggregation_student_grades.js)
+- [delete_document.js](./delete_document.js)
+- [find_document.js](./find_document.js)
+- [find_one_command.js](./find_one_command.js)
+- [insert_document.js](./insert_document.js)
+- [query_rejection_filter.js](./query_rejection_filter.js)
+- [query_rejection_filter_aggregation.js](./query_rejection_filter_aggregation.js)
+- [query_settings.js](./query_settings.js)
+- [query_shape_examples.js](./query_shape_examples.js)
+- [update_document.js](./update_document.js)
+- [update_with_sort.js](./update_with_sort.js)
+
+### Python Files
+
+- [async_connect_motor.py](./async_connect_motor.py)
+- [connect_pymongo.py](./connect_pymongo.py)
+- [delete_document_pymongo.py](./delete_document_pymongo.py)
+- [find_document_pymongo.py](./find_document_pymongo.py)
+- [insert_document_pymongo.py](./insert_document_pymongo.py)
+- [update_document_pymongo.py](./update_document_pymongo.py)
+
+### Shell Scripts/Output examples
+
+- [install_pymongo.sh](./install_pymongo.sh)
+- [mongosh_connect.sh](./mongosh_connect.sh)
+- [pymongo_connect_confirmation.sh](./pymongo_connect_confirmation.sh)
